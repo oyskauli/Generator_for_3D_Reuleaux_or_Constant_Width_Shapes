@@ -65,5 +65,5 @@ ETHAN AKIN
 H. L. Resnikof
 
 Article proving the existance of a contious transformation between constant width shapes exist so that every step in the transformation is also of constant width.
-https://www.researchgate.net/publication/225624683_Topology_of_the_hyperspace_of_convex_bodies_of_constant_width
+https://www.researchgate.net/publication/225624683_Topology_of_the_hyperspace_of_convex_bodies_of_constant_width  
 I would not claim to understand the proof.
