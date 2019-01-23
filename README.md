@@ -12,6 +12,9 @@ First import the OBJ file then use: Filters>Remeshing, Simplification and Recons
 
 9 example meshes generated using this method can be found here: https://drive.google.com/file/d/1iWjz1TvAEv5ugF3FaL8wvvbQ-em-y5bG/view?usp=sharing
 
+![alt text][ImageOfExample]
+
+[ImageOfExample]: https://github.com/oyboy/Generator_for_3D_Reuleaux_or_Constant_Width_Shapes/blob/master/imgs/exampleShapes.png "The 9 example meshes"
 ## How?
 We start with only working with paris of points where the distance between the points in each pair is always the same.
 
