@@ -58,8 +58,8 @@ void MainWindow::on_genShape_clicked()
     QString toPrint;
     int npoints = 500;
     ConstantWidthGen gen = ConstantWidthGen();
-    //gen.GenerateShapePoints(npoints, .3, 0, 0, this);
-    gen.import_points(npoints, .3, .3, .3, "C:/Users/OysteinAdm/Documents/untitled2.obj", this);
+    gen.GenerateShapePoints(npoints, .3, .3, .3, this);
+    //gen.import_points(npoints, .3, .3, .3, "C:/Users/OysteinAdm/Documents/untitled2.obj", this);
     auto outp = gen.lim_max_diam(this, 1e-4);
 
     //save to File
