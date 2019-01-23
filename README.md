@@ -27,8 +27,8 @@ For a pair to be valid: From each point in the pair, no point in the set of alre
 
 This might seem like a simple rule but the fact that it seems to always generate constant width shapes raises some questions that I dont find imediatly obvious:
 - Why would this limitation generate convex hulls? It makes sence in a local area but also the object as a whole is convex.
-- These shapes are only of constant width if the two points in contact, when placed betwen two parallel planes, form a line perpendicular to the planes. Will this always be the case for constant width shapes?
-- If yes, would this be able to generate all constant with shapes?
+- These shapes are only of constant width if the two points in contact, when placed betwen two parallel planes, form a line perpendicular to the planes. Will this always be the case for all constant width shapes?
+- If yes, would this be able to generate all constant with shapes(in 3 dimensions)?
 
 ## Improvements
 The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle. One might then be able to fint all possible positions of the pair by just looking atthe three clossest pairs(in angle) that enclose the pair we want to add.
