@@ -34,3 +34,36 @@ This might seem like a simple rule but the fact that it seems to always generate
 The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle(as far as I have seen this has always been the case for the shapes generated). One might then be able to find all possible positions of the pair by just looking at the three clossest pairs(in angle) that enclose the pair we want to add. Currently the iteration process just uses the first valid position it reaches.
 
 Add posibility to re-iterate after moving one+ pairs and potentialy making an animation of countiously changing constant width shapes.
+
+## Related Papers
+Here is a list of papers related to the topic.
+None of the methods showcased here are similar to this one as far as I have understood, though the first paper produces results close(at least on a subjective level, just looking at the shapes) to mine.
+
+[MEISSNER POLYHEDRA](https://arxiv.org/pdf/1608.06354.pdf)  
+LUIS MONTEJANO, EDGARDO ROLDAN-PENSADO
+
+[Meissner’s Mysterious Bodies](https://www.researchgate.net/publication/225748121_Meissner's_Mysterious_Bodies)  
+Bernd Kawohl, Christof Weber
+
+[Bodies of constant width in arbitrary dimension](https://hal.archives-ouvertes.fr/hal-00385113/document)  
+Thomas Lachand-Robert, Edouard Oudet
+
+
+[Parametric Shape Optimization using the Support Function](https://arxiv.org/pdf/1809.00254.pdf)  
+Pedro R.S. Antunes, Beniamin Bogosel
+
+
+[Shape Optimization Under Width Constraint](https://link.springer.com/article/10.1007/s00454-012-9471-z)  
+Édouard Oudet
+
+
+[MAXIMAL R-DIAMETER SETS AND SOLIDS OF CONSTANT WIDTH](https://arxiv.org/pdf/1003.5824.pdf)  
+ETHAN AKIN
+
+
+[On Curves and Surfaces of Constant Width](https://arxiv.org/pdf/1504.06733.pdf)  
+H. L. Resnikof
+
+Article proving the existance of a contious transformation between constant width shapes exist so that every step in the transformation is also of constant width.
+https://www.researchgate.net/publication/225624683_Topology_of_the_hyperspace_of_convex_bodies_of_constant_width
+I would not claim to understand the proof.
