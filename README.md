@@ -3,8 +3,8 @@ Generate a point cloud of points on the surface a random reuleaux/constant width
 ___
 ## Warning
 No compiled version yet. To run you first need to download the [eigen library](http://eigen.tuxfamily.org/index.php?title=Main_Page) to the 3rdparty folder. The final path should be: "/3rdparty/eigen-eigen-xxxxx/Eigen".
-Then open ConstantWidthShapes.pro using [Qt](https://www.qt.io/)
-Also this project startet just as a first execise in Qt, but it turned out to accually produce working models. So dont expect great code to begin with.
+Then open ConstantWidthShapes.pro using [Qt](https://www.qt.io/).
+Also, this project startet just as a first execise in Qt, but it turned out to accually produce working models. So dont expect great code to begin with.
 
 ## From Output to 3D mesh
 The output file will be a .obj file containing only vertices. To turn this in to a 3D mesh one can use [MeshLab](http://www.meshlab.net/).
