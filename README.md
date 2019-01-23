@@ -10,7 +10,7 @@ Also, this project startet just as a first execise in Qt, but it turned out to a
 The output file will be a .obj file containing only vertices. To turn this in to a 3D mesh one can use [MeshLab](http://www.meshlab.net/).
 First import the OBJ file then use: Filters>Remeshing, Simplification and Reconstruction>Convex Hull. Then you can export the mesh in your desiered fomat.
 
-9 example meshes generated using this meshes can be found here: https://drive.google.com/file/d/1iWjz1TvAEv5ugF3FaL8wvvbQ-em-y5bG/view?usp=sharing
+9 example meshes generated using this method can be found here: https://drive.google.com/file/d/1iWjz1TvAEv5ugF3FaL8wvvbQ-em-y5bG/view?usp=sharing
 
 ## How?
 We start with only working with paris of points where the distance between the points in each pair is always the same.
