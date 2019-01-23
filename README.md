@@ -31,6 +31,6 @@ This might seem like a simple rule but the fact that it seems to always generate
 - If yes, would this be able to generate all constant with shapes(in 3 dimensions)?
 
 ## Improvements
-The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle. One might then be able to find all possible positions of the pair by just looking at the three clossest pairs(in angle) that enclose the pair we want to add. Currently the iteration process just uses the first valit position it reaches.
+The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle. One might then be able to find all possible positions of the pair by just looking at the three clossest pairs(in angle) that enclose the pair we want to add. Currently the iteration process just uses the first valid position it reaches.
 
 Add posibility to re-iterate after moving one+ pairs and potentialy making an animation of countiously changing constant width shapes.
