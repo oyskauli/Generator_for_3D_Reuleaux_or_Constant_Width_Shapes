@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "constantwidthgen.h"
+#include <3rdparty/eigen-eigen-323c052e1731/Eigen/Core>
 #include <QScrollBar>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -56,14 +57,21 @@ void MainWindow::on_genShape_clicked()
     SetPage(1);
 
     QString toPrint;
-    int npoints = 500;
+    int npoints = 1000;
+    int nmodels = 50;
+    Eigen::Vector3d shift;
+    shift << 0.05, 0.05, 0.05;
     ConstantWidthGen gen = ConstantWidthGen();
     gen.GenerateShapePoints(npoints, .3, .3, .3, this);
     //gen.import_points(npoints, .3, .3, .3, "C:/Users/OysteinAdm/Documents/untitled2.obj", this);
-    auto outp = gen.lim_max_diam(this, 1e-4);
+    for(int i = 0; i < nmodels; i++){
+        auto outp = gen.lim_max_diam(this, 1e-4);
 
-    //save to File
-    gen.savePointsAsModel(outp, ui->outPath->text());
-
+        //save to File
+        auto filename = ui->outPath->text() + QString::number(i);
+        gen.savePointsAsModel(outp, filename);
+        gen.points_main[0] += shift;
+        gen.points_oposite[0] += shift;
+    }
 
 }

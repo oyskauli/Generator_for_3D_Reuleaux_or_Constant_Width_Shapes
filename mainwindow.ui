@@ -37,7 +37,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>C:\Users\OysteinAdm\Desktop\output.obj</string>
+       <string>C:\Users\OysteinAdm\Documents\ConstDiamOut\Anim1\output</string>
       </property>
      </widget>
      <widget class="QLabel" name="outPathTitle">

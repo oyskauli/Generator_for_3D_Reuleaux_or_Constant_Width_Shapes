@@ -27,7 +27,7 @@ ConstantWidthGen::ConstantWidthGen()
 
 void ConstantWidthGen::savePointsAsModel(QVector<Eigen::Vector3d> &points, QString filename){
     int nleft = points.length();
-    QFile file(filename);
+    QFile file((filename + QString(".obj")));
     file.remove();
     if(file.open(QIODevice::ReadWrite)){
         QTextStream stream(&file);
