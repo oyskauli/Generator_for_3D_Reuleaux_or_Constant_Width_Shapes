@@ -14,7 +14,7 @@ First import the OBJ file then use: Filters>Remeshing, Simplification and Recons
 
 ![alt text][ImageOfExample]
 
-[ImageOfExample]: https://github.com/oyboy/Generator_for_3D_Reuleaux_or_Constant_Width_Shapes/blob/a346e761001227fdbd4fa68f96d8e3708fbb64b4/imgs/exampleShapes.png "The 9 example meshes"
+[ImageOfExample]: https://github.com/oyboy/Generator_for_3D_Reuleaux_or_Constant_Width_Shapes/blob/master/imgs/exampleShapes.png "The 9 example meshes"
 A simulation with these examples: https://youtu.be/qGcFCXV-Vsg
 ## How?
 We start with only working with paris of points where the distance between the points in each pair is always the same.
