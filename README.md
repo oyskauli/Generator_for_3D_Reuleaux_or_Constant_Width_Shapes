@@ -33,7 +33,7 @@ This might seem like a simple rule but the fact that it seems to always generate
 ## Improvements
 The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle(as far as I have seen this has always been the case for the shapes generated). One might then be able to find all possible positions of the pair by just looking at the three clossest pairs(in angle) that enclose the pair we want to add. Currently the iteration process just uses the first valid position it reaches.
 
-Imrove the tranformation between constant width shapes so that one can specify what shape to converge to. The current result is random as seen below.
+Imrove the tranformation between constant width shapes so that one can specify what shape to converge to. The current result is random like the example given below.
 
 ![alt text][AnimExample]
 
