@@ -33,8 +33,10 @@ This might seem like a simple rule but the fact that it seems to always generate
 ## Improvements
 The iteration could be replaced by a more dererministic approach if one can show that a pair will be placed near pairs with a similar angle(as far as I have seen this has always been the case for the shapes generated). One might then be able to find all possible positions of the pair by just looking at the three clossest pairs(in angle) that enclose the pair we want to add. Currently the iteration process just uses the first valid position it reaches.
 
-Add posibility to re-iterate after moving one+ pairs and potentialy making an animation of countiously changing constant width shapes.
+Imrove the tranformation between constant width shapes so that one can specify what shape to converge to. The current result is random as seen below.
+![alt text][AnimExample]
 
+[AnimExample]: https://github.com/oyboy/Generator_for_3D_Reuleaux_or_Constant_Width_Shapes/blob/master/imgs/Anim1.gif "Animation Example"
 ## Related Papers
 Here is a list of papers related to the topic.
 None of the methods showcased here are similar to this one as far as I have understood, though the first paper produces results close(at least on a subjective level, just looking at the shapes) to mine.
