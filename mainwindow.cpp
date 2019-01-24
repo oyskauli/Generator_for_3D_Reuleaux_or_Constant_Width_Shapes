@@ -57,15 +57,15 @@ void MainWindow::on_genShape_clicked()
     SetPage(1);
 
     QString toPrint;
-    int npoints = 1000;
-    int nmodels = 50;
+    int npoints = 2000;
+    int nmodels = 200;
     Eigen::Vector3d shift;
-    shift << 0.05, 0.05, 0.05;
+    shift << 0.01, 0.01, 0.01;
     ConstantWidthGen gen = ConstantWidthGen();
     gen.GenerateShapePoints(npoints, .3, .3, .3, this);
     //gen.import_points(npoints, .3, .3, .3, "C:/Users/OysteinAdm/Documents/untitled2.obj", this);
     for(int i = 0; i < nmodels; i++){
-        auto outp = gen.lim_max_diam(this, 1e-4);
+        auto outp = gen.lim_max_diam(this, 1e-5);
 
         //save to File
         auto filename = ui->outPath->text() + QString::number(i);
