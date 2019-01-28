@@ -1,5 +1,11 @@
 # Generator for 3D Reuleaux/Constant-Width Shapes
-Generate a point cloud of points on the surface a random reuleaux/constant width shape
+Generate a point cloud of points on the surface a random reuleaux/constant width shape.
+Animation from sphere to more complex shape, all with same width:
+
+![alt text][Anim3]
+
+[Anim3]: https://github.com/oyboy/Generator_for_3D_Reuleaux_or_Constant_Width_Shapes/blob/master/imgs/Anim3.gif "Sphere to complex"
+
 ___
 ## Warning
 No compiled version yet. To run you first need to download the [eigen library](http://eigen.tuxfamily.org/index.php?title=Main_Page) to the 3rdparty folder. The final path should be: "/3rdparty/eigen-eigen-xxxxx/Eigen".
