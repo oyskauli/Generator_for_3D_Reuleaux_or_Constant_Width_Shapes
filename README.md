@@ -1,6 +1,5 @@
 # Generator for 3D Reuleaux/Constant-Width Shapes
-Generate a point cloud of points on the surface a random reuleaux/constant width shape.
-Animation from sphere to more complex shape, all with same width:
+Generate a point cloud of points on the surface a random reuleaux/constant width shape. The Spheres is the most commonly known, but more complex shapes also exist. As an example here is an animation from sphere to more complex shape(s), all with same width:
 
 ![alt text][Anim3]
 
